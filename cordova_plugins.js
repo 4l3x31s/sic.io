@@ -29,15 +29,6 @@ module.exports = [
         "runs": true
     },
     {
-        "file": "plugins/ionic-plugin-keyboard/www/browser/keyboard.js",
-        "id": "ionic-plugin-keyboard.keyboard",
-        "pluginId": "ionic-plugin-keyboard",
-        "clobbers": [
-            "cordova.plugins.Keyboard"
-        ],
-        "runs": true
-    },
-    {
         "file": "plugins/cordova-plugin-statusbar/www/statusbar.js",
         "id": "cordova-plugin-statusbar.statusbar",
         "pluginId": "cordova-plugin-statusbar",
@@ -50,17 +41,26 @@ module.exports = [
         "id": "cordova-plugin-statusbar.StatusBarProxy",
         "pluginId": "cordova-plugin-statusbar",
         "runs": true
+    },
+    {
+        "file": "plugins/ionic-plugin-keyboard/www/browser/keyboard.js",
+        "id": "ionic-plugin-keyboard.keyboard",
+        "pluginId": "ionic-plugin-keyboard",
+        "clobbers": [
+            "cordova.plugins.Keyboard"
+        ],
+        "runs": true
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "cordova-plugin-device": "1.1.4",
-    "cordova-plugin-ionic-webview": "1.1.15",
-    "cordova-plugin-splashscreen": "4.0.3",
-    "cordova-plugin-whitelist": "1.3.1",
-    "ionic-plugin-keyboard": "2.2.1",
-    "cordova-plugin-statusbar": "2.3.0"
+    "cordova-plugin-device": "1.1.7",
+    "cordova-plugin-ionic-webview": "1.1.16",
+    "cordova-plugin-splashscreen": "4.1.0",
+    "cordova-plugin-statusbar": "2.3.0",
+    "cordova-plugin-whitelist": "1.3.3",
+    "ionic-plugin-keyboard": "2.2.1"
 }
 // BOTTOM OF METADATA
 });

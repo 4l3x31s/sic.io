@@ -4,51 +4,6 @@ webpackJsonp([9],{
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CierreGestionPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the CierreGestionPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var CierreGestionPage = (function () {
-    function CierreGestionPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    CierreGestionPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad CierreGestionPage');
-    };
-    return CierreGestionPage;
-}());
-CierreGestionPage = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-cierre-gestion',template:/*ion-inline-start:"D:\IonicInventarios\sic\src\pages\cierre-gestion\cierre-gestion.html"*/'<!--\n\n  Generated template for the CierreGestionPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar color="cafe-claro">\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>cierre-gestion</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"D:\IonicInventarios\sic\src\pages\cierre-gestion\cierre-gestion.html"*/,
-    }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */]])
-], CierreGestionPage);
-
-//# sourceMappingURL=cierre-gestion.js.map
-
-/***/ }),
-
-/***/ 107:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DiscosPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
@@ -81,7 +36,7 @@ var DiscosPage = (function () {
 }());
 DiscosPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-discos',template:/*ion-inline-start:"D:\IonicInventarios\sic\src\pages\discos\discos.html"*/'<!--\n\n  Generated template for the DiscosPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar color="cafe-claro">\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>discos</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"D:\IonicInventarios\sic\src\pages\discos\discos.html"*/,
+        selector: 'page-discos',template:/*ion-inline-start:"E:\Inventarios\ionicSIC\ionic-sic\src\pages\discos\discos.html"*/'<!--\n\n  Generated template for the DiscosPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar color="cafe-claro">\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>discos</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"E:\Inventarios\ionicSIC\ionic-sic\src\pages\discos\discos.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */]])
 ], DiscosPage);
@@ -90,7 +45,7 @@ DiscosPage = __decorate([
 
 /***/ }),
 
-/***/ 108:
+/***/ 107:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -126,12 +81,57 @@ var EntregasPage = (function () {
 }());
 EntregasPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-entregas',template:/*ion-inline-start:"D:\IonicInventarios\sic\src\pages\entregas\entregas.html"*/'<!--\n\n  Generated template for the EntregasPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar color="cafe-claro">\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>entregas</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"D:\IonicInventarios\sic\src\pages\entregas\entregas.html"*/,
+        selector: 'page-entregas',template:/*ion-inline-start:"E:\Inventarios\ionicSIC\ionic-sic\src\pages\entregas\entregas.html"*/'<!--\n\n  Generated template for the EntregasPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar color="cafe-claro">\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>entregas</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"E:\Inventarios\ionicSIC\ionic-sic\src\pages\entregas\entregas.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */]])
 ], EntregasPage);
 
 //# sourceMappingURL=entregas.js.map
+
+/***/ }),
+
+/***/ 108:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CierreGestionPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the CierreGestionPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var CierreGestionPage = (function () {
+    function CierreGestionPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    CierreGestionPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad CierreGestionPage');
+    };
+    return CierreGestionPage;
+}());
+CierreGestionPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-cierre-gestion',template:/*ion-inline-start:"E:\Inventarios\ionicSIC\ionic-sic\src\pages\cierre-gestion\cierre-gestion.html"*/'<!--\n\n  Generated template for the CierreGestionPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar color="cafe-claro">\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>cierre-gestion</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"E:\Inventarios\ionicSIC\ionic-sic\src\pages\cierre-gestion\cierre-gestion.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */]])
+], CierreGestionPage);
+
+//# sourceMappingURL=cierre-gestion.js.map
 
 /***/ }),
 
@@ -171,7 +171,7 @@ var EstadoCuentasPage = (function () {
 }());
 EstadoCuentasPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-estado-cuentas',template:/*ion-inline-start:"D:\IonicInventarios\sic\src\pages\estado-cuentas\estado-cuentas.html"*/'<!--\n\n  Generated template for the EstadoCuentasPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar color="cafe-claro">\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>estado-cuentas</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"D:\IonicInventarios\sic\src\pages\estado-cuentas\estado-cuentas.html"*/,
+        selector: 'page-estado-cuentas',template:/*ion-inline-start:"E:\Inventarios\ionicSIC\ionic-sic\src\pages\estado-cuentas\estado-cuentas.html"*/'<!--\n\n  Generated template for the EstadoCuentasPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar color="cafe-claro">\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>estado-cuentas</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"E:\Inventarios\ionicSIC\ionic-sic\src\pages\estado-cuentas\estado-cuentas.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */]])
 ], EstadoCuentasPage);
@@ -626,7 +626,7 @@ var ModalLlegadasPage = ModalLlegadasPage_1 = (function () {
 }());
 ModalLlegadasPage = ModalLlegadasPage_1 = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-modal-llegadas',template:/*ion-inline-start:"D:\IonicInventarios\sic\src\pages\modal-llegadas\modal-llegadas.html"*/'<!--\n  Generated template for the ModalLlegadasPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="cafe-claro">\n    <ion-title>{{titulo}}</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-grid class="grilla-pedidos">\n    <ion-row>\n      <ion-col>\n        <ion-item>\n          <ion-label class="titulos" stacked>Codigo</ion-label>\n\n        </ion-item>\n      </ion-col>\n      <ion-col>\n        <ion-item>\n          <ion-label class="titulos" stacked>Fecha</ion-label>\n\n        </ion-item>\n      </ion-col>\n      <ion-col>\n        <ion-item>\n          <ion-label class="titulos" stacked>Num Mov</ion-label>\n\n        </ion-item>\n      </ion-col>\n      <ion-col>\n        <ion-item>\n          <ion-label class="titulos" stacked>Observación</ion-label>\n\n        </ion-item>\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n  <ion-scroll scrollX="true" scrollY="true" style="width: 100%; height: 150px">\n    <ion-grid  class="grilla-pedidos">\n      <ion-row class="seleccionado" *ngFor="let item of listaPedidos.list" (click)="listarArticulos(item.lista, item.id, item)" ngClass="background: color($colors, cafe-suave);">\n        <ion-col>\n          <ion-item>\n            <ion-label stacked class="wrap">{{item.codigoProveedor}}</ion-label>\n          </ion-item>\n        </ion-col>\n        <ion-col>\n          <ion-item>\n\n            <ion-label stacked class="wrap">{{item.fechaMovimiento}}</ion-label>\n          </ion-item>\n        </ion-col>\n        <ion-col>\n          <ion-item>\n\n            <ion-label stacked class="wrap">{{item.nroMovimiento}}</ion-label>\n          </ion-item>\n        </ion-col>\n        <ion-col>\n          <ion-item>\n            <ion-label stacked class="wrap">{{item.observacion}}\n            </ion-label>\n          </ion-item>\n        </ion-col>\n      </ion-row>\n    </ion-grid>\n  </ion-scroll>\n\n  <ion-grid>\n    <ion-row>\n      <ion-col>\n        <ion-list>\n        <ion-item class="remarcados">\n          <ion-label stacked>Cantidad</ion-label>\n          <ion-input type="number" readonly="true" value="{{cantidadPedidos}}"></ion-input>\n        </ion-item>\n        </ion-list>\n      </ion-col>\n      <ion-col>\n        <ion-list>\n          <ion-item class="remarcados">\n            <ion-label stacked>Precio</ion-label>\n            <ion-input type="number" readonly="true" value="{{precioPedidos}}"></ion-input>\n          </ion-item>\n        </ion-list>\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n\n  <ion-grid class="grilla-pedidos">\n    <ion-row>\n      <ion-col>\n        <ion-item>\n          <ion-label class="titulos" stacked>Codigo</ion-label>\n        </ion-item>\n      </ion-col>\n      <ion-col>\n        <ion-item>\n          <ion-label class="titulos" stacked>Cantidad</ion-label>\n\n        </ion-item>\n      </ion-col>\n      <ion-col>\n        <ion-item>\n          <ion-label class="titulos" stacked>Precio</ion-label>\n\n        </ion-item>\n      </ion-col>\n      <ion-col>\n        <ion-item>\n          <ion-label class="titulos" stacked>Observación</ion-label>\n        </ion-item>\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n  <ion-scroll scrollX="true" scrollY="true" style="width: 100%; height: 150px">\n    <ion-grid class="grilla-pedidos grillas">\n      <ion-row  *ngFor="let art of listaArticulosPorPedido">\n        <ion-col>\n          <ion-item class="grillas">\n            <ion-label stacked class="wrap">{{art.codigoArticulo}}</ion-label>\n          </ion-item>\n        </ion-col>\n        <ion-col>\n          <ion-item class="grillas">\n            <ion-label stacked class="wrap">{{art.cantidad}}</ion-label>\n          </ion-item>\n        </ion-col>\n        <ion-col>\n          <ion-item class="grillas">\n            <ion-label stacked class="wrap">{{art.precio}}</ion-label>\n          </ion-item>\n        </ion-col>\n        <ion-col>\n          <ion-item class="grillas">\n            <ion-label stacked class="wrap">{{art.observacion}}\n            </ion-label>\n          </ion-item>\n        </ion-col>\n      </ion-row>\n    </ion-grid>\n  </ion-scroll>\n  <ion-grid>\n    <ion-row>\n      <ion-col>\n        <ion-list>\n          <ion-item class="remarcados">\n            <ion-label stacked>Cantidad Total</ion-label>\n            <ion-input type="number" readonly="true" value="{{cantidadTotalPedido}}"></ion-input>\n          </ion-item>\n        </ion-list>\n      </ion-col>\n      <ion-col>\n        <ion-list>\n          <ion-item class="remarcados">\n            <ion-label stacked>Precio Total Compra</ion-label>\n            <ion-input type="number" readonly="true" value="{{precioTotalPedido}}"></ion-input>\n          </ion-item>\n        </ion-list>\n      </ion-col>\n      <ion-col>\n        <ion-list>\n          <ion-item class="remarcados">\n            <ion-label stacked>Precio Total Venta</ion-label>\n            <ion-input type="number" readonly="true" value="{{precioTotalCompra}}"></ion-input>\n          </ion-item>\n        </ion-list>\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n  <ion-fab bottom right *ngIf="tipoPeticion == 0" >\n    <button ion-fab color="danger"><ion-icon name="more"></ion-icon></button>\n    <ion-fab-list side="left">\n      <button ion-fab color="primary" (click)="confirmarAccion()" ><ion-icon name="cloud-download"></ion-icon></button><!--Por Llegar-->\n      <button ion-fab color="secondary" (click)="confirmarEliminar()" ><ion-icon name="trash"></ion-icon></button><!--Por Llegar-->\n      <button ion-fab color="naranja" (click)="reportePorLlegar()" ><ion-icon name="print"></ion-icon></button><!--Por Llegar-->\n    </ion-fab-list>\n  </ion-fab>\n  <ion-fab bottom right *ngIf="tipoPeticion != 0" >\n    <button ion-fab color="danger"><ion-icon name="more"></ion-icon></button>\n    <ion-fab-list side="left">\n      <button ion-fab color="cafe-claro" (click)="eliminarPedidoLlegado()" ><ion-icon name="trash"></ion-icon></button><!--Por Llegar-->\n      <button ion-fab color="naranja" (click)="reporteLlegadas()" ><ion-icon name="print"></ion-icon></button><!--Por Llegar-->\n    </ion-fab-list>\n  </ion-fab>\n</ion-content>\n'/*ion-inline-end:"D:\IonicInventarios\sic\src\pages\modal-llegadas\modal-llegadas.html"*/,
+        selector: 'page-modal-llegadas',template:/*ion-inline-start:"E:\Inventarios\ionicSIC\ionic-sic\src\pages\modal-llegadas\modal-llegadas.html"*/'<!--\n\n  Generated template for the ModalLlegadasPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar color="cafe-claro">\n\n    <ion-title>{{titulo}}</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n  <ion-grid class="grilla-pedidos">\n\n    <ion-row>\n\n      <ion-col>\n\n        <ion-item>\n\n          <ion-label class="titulos" stacked>Codigo</ion-label>\n\n\n\n        </ion-item>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-item>\n\n          <ion-label class="titulos" stacked>Fecha</ion-label>\n\n\n\n        </ion-item>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-item>\n\n          <ion-label class="titulos" stacked>Num Mov</ion-label>\n\n\n\n        </ion-item>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-item>\n\n          <ion-label class="titulos" stacked>Observación</ion-label>\n\n\n\n        </ion-item>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n  <ion-scroll scrollX="true" scrollY="true" style="width: 100%; height: 150px">\n\n    <ion-grid  class="grilla-pedidos">\n\n      <ion-row class="seleccionado" *ngFor="let item of listaPedidos.list" (click)="listarArticulos(item.lista, item.id, item)" ngClass="background: color($colors, cafe-suave);">\n\n        <ion-col>\n\n          <ion-item>\n\n            <ion-label stacked class="wrap">{{item.codigoProveedor}}</ion-label>\n\n          </ion-item>\n\n        </ion-col>\n\n        <ion-col>\n\n          <ion-item>\n\n\n\n            <ion-label stacked class="wrap">{{item.fechaMovimiento}}</ion-label>\n\n          </ion-item>\n\n        </ion-col>\n\n        <ion-col>\n\n          <ion-item>\n\n\n\n            <ion-label stacked class="wrap">{{item.nroMovimiento}}</ion-label>\n\n          </ion-item>\n\n        </ion-col>\n\n        <ion-col>\n\n          <ion-item>\n\n            <ion-label stacked class="wrap">{{item.observacion}}\n\n            </ion-label>\n\n          </ion-item>\n\n        </ion-col>\n\n      </ion-row>\n\n    </ion-grid>\n\n  </ion-scroll>\n\n\n\n  <ion-grid>\n\n    <ion-row>\n\n      <ion-col>\n\n        <ion-list>\n\n        <ion-item class="remarcados">\n\n          <ion-label stacked>Cantidad</ion-label>\n\n          <ion-input type="number" readonly="true" value="{{cantidadPedidos}}"></ion-input>\n\n        </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-list>\n\n          <ion-item class="remarcados">\n\n            <ion-label stacked>Precio</ion-label>\n\n            <ion-input type="number" readonly="true" value="{{precioPedidos}}"></ion-input>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n\n\n  <ion-grid class="grilla-pedidos">\n\n    <ion-row>\n\n      <ion-col>\n\n        <ion-item>\n\n          <ion-label class="titulos" stacked>Codigo</ion-label>\n\n        </ion-item>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-item>\n\n          <ion-label class="titulos" stacked>Cantidad</ion-label>\n\n\n\n        </ion-item>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-item>\n\n          <ion-label class="titulos" stacked>Precio</ion-label>\n\n\n\n        </ion-item>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-item>\n\n          <ion-label class="titulos" stacked>Observación</ion-label>\n\n        </ion-item>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n  <ion-scroll scrollX="true" scrollY="true" style="width: 100%; height: 150px">\n\n    <ion-grid class="grilla-pedidos grillas">\n\n      <ion-row  *ngFor="let art of listaArticulosPorPedido">\n\n        <ion-col>\n\n          <ion-item class="grillas">\n\n            <ion-label stacked class="wrap">{{art.codigoArticulo}}</ion-label>\n\n          </ion-item>\n\n        </ion-col>\n\n        <ion-col>\n\n          <ion-item class="grillas">\n\n            <ion-label stacked class="wrap">{{art.cantidad}}</ion-label>\n\n          </ion-item>\n\n        </ion-col>\n\n        <ion-col>\n\n          <ion-item class="grillas">\n\n            <ion-label stacked class="wrap">{{art.precio}}</ion-label>\n\n          </ion-item>\n\n        </ion-col>\n\n        <ion-col>\n\n          <ion-item class="grillas">\n\n            <ion-label stacked class="wrap">{{art.observacion}}\n\n            </ion-label>\n\n          </ion-item>\n\n        </ion-col>\n\n      </ion-row>\n\n    </ion-grid>\n\n  </ion-scroll>\n\n  <ion-grid>\n\n    <ion-row>\n\n      <ion-col>\n\n        <ion-list>\n\n          <ion-item class="remarcados">\n\n            <ion-label stacked>Cantidad Total</ion-label>\n\n            <ion-input type="number" readonly="true" value="{{cantidadTotalPedido}}"></ion-input>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-list>\n\n          <ion-item class="remarcados">\n\n            <ion-label stacked>Precio Total Compra</ion-label>\n\n            <ion-input type="number" readonly="true" value="{{precioTotalPedido}}"></ion-input>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-list>\n\n          <ion-item class="remarcados">\n\n            <ion-label stacked>Precio Total Venta</ion-label>\n\n            <ion-input type="number" readonly="true" value="{{precioTotalCompra}}"></ion-input>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n  <ion-fab bottom right *ngIf="tipoPeticion == 0" >\n\n    <button ion-fab color="danger"><ion-icon name="more"></ion-icon></button>\n\n    <ion-fab-list side="left">\n\n      <button ion-fab color="primary" (click)="confirmarAccion()" ><ion-icon name="cloud-download"></ion-icon></button><!--Por Llegar-->\n\n      <button ion-fab color="secondary" (click)="confirmarEliminar()" ><ion-icon name="trash"></ion-icon></button><!--Por Llegar-->\n\n      <button ion-fab color="naranja" (click)="reportePorLlegar()" ><ion-icon name="print"></ion-icon></button><!--Por Llegar-->\n\n    </ion-fab-list>\n\n  </ion-fab>\n\n  <ion-fab bottom right *ngIf="tipoPeticion != 0" >\n\n    <button ion-fab color="danger"><ion-icon name="more"></ion-icon></button>\n\n    <ion-fab-list side="left">\n\n      <button ion-fab color="cafe-claro" (click)="eliminarPedidoLlegado()" ><ion-icon name="trash"></ion-icon></button><!--Por Llegar-->\n\n      <button ion-fab color="naranja" (click)="reporteLlegadas()" ><ion-icon name="print"></ion-icon></button><!--Por Llegar-->\n\n    </ion-fab-list>\n\n  </ion-fab>\n\n</ion-content>\n\n'/*ion-inline-end:"E:\Inventarios\ionicSIC\ionic-sic\src\pages\modal-llegadas\modal-llegadas.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_sic_service_sic_service__["a" /* SicServiceProvider */],
         __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ToastController */],
@@ -642,14 +642,12 @@ var ModalLlegadasPage_1;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NuevoProductoPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(167);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_sic_service_sic_service__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_device__ = __webpack_require__(168);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__request_request_login__ = __webpack_require__(264);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_token_share_token_share__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__model_mdl_articulo__ = __webpack_require__(256);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__clases_obj_articulo__ = __webpack_require__(257);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_sic_service_sic_service__ = __webpack_require__(34);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -664,72 +662,243 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
-
 /**
- * Generated class for the LoginPage page.
+ * Generated class for the NuevoProductoPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var LoginPage = (function () {
-    function LoginPage(navCtrl, navParams, menu, sicService, loadingCtrl, alertCtrl, device, tokenShare) {
+var NuevoProductoPage = (function () {
+    function NuevoProductoPage(navCtrl, navParams, sicService, alertCtrl, toastCtrl, loadingCtrl, actionSheetCtrl) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
-        this.menu = menu;
         this.sicService = sicService;
-        this.loadingCtrl = loadingCtrl;
         this.alertCtrl = alertCtrl;
-        this.device = device;
-        this.tokenShare = tokenShare;
-        this.txtUsuario = "";
-        this.txtPassword = "";
-        this.appName = "AppMovil";
-        this.appKey = "12e23o33e488x033o";
-        menu.enable(false);
+        this.toastCtrl = toastCtrl;
+        this.loadingCtrl = loadingCtrl;
+        this.actionSheetCtrl = actionSheetCtrl;
+        this.precioKilo = 0;
+        this.pesoStock = 0;
+        this.precioZonaLibre = 0;
+        this.porcentajeGastos = 0;
+        this.montoGasto = 0;
+        this.precioCompra = 0;
+        this.precioMercado = 0;
+        this.precioVenta = 0;
+        this.seActualiza = false;
+        this.url = 'https://app-pos.herokuapp.com'; //'https://desa-pos.herokuapp.com';//'https://app-pos.herokuapp.com';
     }
-    LoginPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad LoginPage');
+    NuevoProductoPage.prototype.ngOnInit = function () {
+        this.seActualiza = false;
     };
-    LoginPage.prototype.iniciaSesion = function () {
+    NuevoProductoPage.prototype.calculaPrecioFinal = function () {
+        this.montoGasto = (this.porcentajeGastos * this.precioZonaLibre) / 100;
+        this.precioCompra = (this.precioKilo * this.pesoStock) + (this.precioZonaLibre * 1) + (this.montoGasto * 1);
+    };
+    NuevoProductoPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad NuevoProductoPage');
+    };
+    NuevoProductoPage.prototype.presentAlert = function (titulo, mensaje) {
+        var alert = this.alertCtrl.create({
+            title: titulo,
+            subTitle: mensaje,
+            buttons: ['Aceptar']
+        });
+        alert.present();
+    };
+    NuevoProductoPage.prototype.presentToast = function (mensaje) {
+        var toast = this.toastCtrl.create({
+            message: mensaje,
+            duration: 3000,
+            position: 'bottom'
+        });
+        toast.onDidDismiss(function () {
+            console.log('Toas Dimissed');
+        });
+        toast.present();
+    };
+    NuevoProductoPage.prototype.buscaProducto = function () {
         var _this = this;
-        //this.navCtrl.
         var loading = this.loadingCtrl.create({
-            content: 'Iniciando Sessión'
+            content: 'Obteniendo los datos'
         });
         loading.present();
-        var requestPedido = new __WEBPACK_IMPORTED_MODULE_5__request_request_login__["a" /* RequestLogin */](this.txtUsuario, this.txtPassword, this.appName, this.appKey, this.device.platform + " " + this.device.model);
-        var url = '/acceso/login';
-        this.sicService.postGlobal(requestPedido, url).subscribe(function (data) {
+        //this.presentLoadingDefault();
+        this.limpiarDatos();
+        this.sicService.getArticulo(this.codigoArticulo.toUpperCase()).subscribe(function (data) {
             loading.dismiss();
-            var alert;
-            if (data.respuesta) {
-                _this.tokenShare.setData(data);
-                _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__home_home__["a" /* HomePage */], { data: data });
-            }
-            else {
-                alert = _this.alertCtrl.create({
-                    title: 'Error',
-                    subTitle: data.mensaje,
-                    buttons: ['Aceptar']
-                });
-                alert.present();
-                return;
+            //this.dimmisLoading();
+            console.log(data);
+            //this.respuestaArticulo = data;
+            if (data.articulo != null) {
+                _this.presentToast('Se ha encontrado una coincidencia');
+                _this.seActualiza = true;
+                _this.descripcion = data.articulo.nombre;
+                _this.precioKilo = data.articulo.precioKilo;
+                _this.pesoStock = data.articulo.peso;
+                _this.precioZonaLibre = data.articulo.precioZonaLibre;
+                _this.porcentajeGastos = data.articulo.porcentajeGasto;
+                _this.precioCompra = data.articulo.precioCompra;
+                _this.precioMercado = data.articulo.precioMercado;
+                _this.precioVenta = data.articulo.precioVenta;
+                _this.montoGasto = (_this.porcentajeGastos * _this.precioZonaLibre) / 100;
+                _this.mensaje = data.articulo.descripcion;
             }
         });
     };
-    return LoginPage;
+    NuevoProductoPage.prototype.guardarArticulo = function () {
+        var _this = this;
+        var loading = this.loadingCtrl.create({
+            content: 'Registrando los datos...'
+        });
+        loading.present();
+        if (!this.seActualiza) {
+            this.sicService.addArticulo(new __WEBPACK_IMPORTED_MODULE_2__model_mdl_articulo__["a" /* MdlArticulo */](new __WEBPACK_IMPORTED_MODULE_3__clases_obj_articulo__["a" /* ObjArticulo */](this.codigoArticulo.toUpperCase(), this.descripcion, this.mensaje, this.precioKilo, this.pesoStock, this.precioZonaLibre, this.porcentajeGastos, this.montoGasto, this.precioCompra, this.precioVenta, this.precioMercado))).subscribe(function (data) {
+                loading.dismiss();
+                _this.limpiarDatos();
+                _this.presentAlert('Información', 'Su producto fue registrado correctamente');
+                return data;
+            }, function (err) {
+                loading.dismiss();
+                console.log(err);
+                _this.presentAlert('Error', 'No se introdujeron los datos correctamente.');
+            });
+        }
+        else {
+            this.sicService.updateArticulo(new __WEBPACK_IMPORTED_MODULE_2__model_mdl_articulo__["a" /* MdlArticulo */](new __WEBPACK_IMPORTED_MODULE_3__clases_obj_articulo__["a" /* ObjArticulo */](this.codigoArticulo.toUpperCase(), this.descripcion, this.mensaje, this.precioKilo, this.pesoStock, this.precioZonaLibre, this.porcentajeGastos, this.montoGasto, this.precioCompra, this.precioVenta, this.precioMercado))).subscribe(function (data) {
+                _this.limpiarDatos();
+                loading.dismiss();
+                _this.presentAlert('Información', 'Su producto fué actualizado correctamente');
+                return data;
+            }, function (err) {
+                loading.dismiss();
+                console.log(err);
+                _this.presentAlert('Error', 'No se introdujeron los datos correctamente.');
+            });
+        }
+    };
+    NuevoProductoPage.prototype.eliminarArticulo = function () {
+        var _this = this;
+        var loading = this.loadingCtrl.create({
+            content: 'Registrando los datos...'
+        });
+        loading.present();
+        if (this.seActualiza) {
+            console.log(this.seActualiza);
+            this.sicService.deleteArticulo(this.codigoArticulo).subscribe(function (data) {
+                loading.dismiss();
+                _this.limpiarDatos();
+                _this.presentAlert('Información', 'Su producto fué eliminado correctamente');
+                return data;
+            }, function (err) {
+                loading.dismiss();
+                console.log(err);
+                _this.presentAlert('Error', 'Error al obtener los datos.');
+            });
+        }
+    };
+    NuevoProductoPage.prototype.limpiarDatos = function () {
+        this.seActualiza = false;
+        this.descripcion = '';
+        this.precioKilo = 0;
+        this.pesoStock = 0;
+        this.precioZonaLibre = 0;
+        this.porcentajeGastos = 0;
+        this.precioCompra = 0;
+        this.precioMercado = 0;
+        this.precioVenta = 0;
+        this.mensaje = '';
+        this.montoGasto = 0;
+    };
+    NuevoProductoPage.prototype.listarProductos = function () {
+        var _this = this;
+        var loading = this.loadingCtrl.create({
+            content: 'Listando Productos'
+        });
+        loading.present();
+        this.sicService.listArticulos().subscribe(function (data) {
+            loading.dismiss();
+            var alert = _this.alertCtrl.create();
+            alert.setTitle('Seleccione un Item');
+            for (var _i = 0, _a = data.lista; _i < _a.length; _i++) {
+                var lista = _a[_i];
+                alert.addInput({
+                    type: 'radio',
+                    name: 'codigo',
+                    label: '' + lista.codigo + ' -- ' + lista.nombre,
+                    value: lista.codigo
+                });
+            }
+            alert.addButton('Cancelar');
+            alert.addButton({
+                text: 'Aceptar',
+                handler: function (data) {
+                    console.log('Datos Enviados:', data);
+                    _this.codigoArticulo = data;
+                    _this.buscaProducto();
+                }
+            });
+            alert.present();
+            return data;
+        });
+    };
+    NuevoProductoPage.prototype.reportesPedidos = function () {
+        var _this = this;
+        var actionSheet = this.actionSheetCtrl.create({
+            title: 'Reportes',
+            buttons: [
+                {
+                    text: 'Stock PDF',
+                    handler: function () {
+                        console.log('Destructive clicked');
+                        window.open(_this.url + "/reporte/stock/pdf/download", "_blank");
+                    }
+                },
+                {
+                    text: 'Stock Excel',
+                    handler: function () {
+                        console.log('Destructive clicked');
+                        window.open(_this.url + "/reporte/stock/xls/download", "_blank");
+                    }
+                },
+                {
+                    text: 'Existencias PDF',
+                    handler: function () {
+                        console.log('Archive clicked');
+                        // /reporte/existencia/{formato}/download
+                        window.open(_this.url + "/reporte/existencia/pdf/download", "_blank");
+                    }
+                },
+                {
+                    text: 'Existencias Excel',
+                    handler: function () {
+                        console.log('Archive clicked');
+                        window.open(_this.url + "/reporte/existencia/xls/download", "_blank");
+                    }
+                },
+                {
+                    text: 'Cancel',
+                    role: 'cancel',
+                    handler: function () {
+                        console.log('Cancel clicked');
+                    }
+                }
+            ]
+        });
+        actionSheet.present();
+    };
+    return NuevoProductoPage;
 }());
-LoginPage = __decorate([
+NuevoProductoPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-login',template:/*ion-inline-start:"D:\IonicInventarios\sic\src\pages\login\login.html"*/'<!--\n\n  Generated template for the LoginPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n\n\n\n\n<ion-content class="fondo-contenido">\n\n  <div class="logo">\n\n    <img src="assets/img/sic-logo.png">\n\n  </div>\n\n  <div class="fondo-login" color="cafe-claro">\n\n    <ion-list>\n\n\n\n      <ion-item color="cafe-claro">\n\n        <ion-label floating color="light">Usuario</ion-label>\n\n        <ion-input color="light" [(ngModel)]="txtUsuario" type="text" required="true"></ion-input>\n\n      </ion-item>\n\n\n\n      <ion-item color="cafe-claro">\n\n        <ion-label floating color="light">Constraseña</ion-label>\n\n        <ion-input color="light" [(ngModel)]="txtPassword" type="password"></ion-input>\n\n      </ion-item>\n\n\n\n    </ion-list>\n\n    <div style="text-align: right">\n\n      <a ion-button color="naranja-logo" (click)="iniciaSesion()">Iniciar Sessión</a>\n\n    </div>\n\n  </div>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\IonicInventarios\sic\src\pages\login\login.html"*/,
+        selector: 'page-nuevo-producto',template:/*ion-inline-start:"E:\Inventarios\ionicSIC\ionic-sic\src\pages\nuevo-producto\nuevo-producto.html"*/'<!--\n\n  Generated template for the NuevoProductoPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar color="cafe-claro">\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Registrar Nuevo Producto</ion-title>\n\n\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n<ion-content>\n\n  <ion-grid>\n\n    <ion-row>\n\n      <ion-col>\n\n        <ion-list >\n\n          <ion-item>\n\n            <ion-label stacked>Código Artículo</ion-label>\n\n            <ion-input type="text" [(ngModel)]="codigoArticulo" placeholder="ej. asc0123" (change)="buscaProducto()"></ion-input>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n    <ion-row>\n\n      <ion-col>\n\n        <ion-list >\n\n          <ion-item>\n\n            <ion-label stacked>Descripción</ion-label>\n\n            <ion-input type="text" [(ngModel)]="descripcion" type="text"></ion-input>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n    <ion-row>\n\n      <ion-col>\n\n        <ion-list >\n\n          <ion-item>\n\n            <ion-label stacked>Precio por Kilo</ion-label>\n\n            <ion-input [(ngModel)]="precioKilo" (change)="calculaPrecioFinal()" type="number"></ion-input>\n\n          </ion-item>\n\n          <ion-item>\n\n            <ion-label stacked>Peso Stock</ion-label>\n\n            <ion-input [(ngModel)]="pesoStock" (change)="calculaPrecioFinal()" type="number"></ion-input>\n\n          </ion-item>\n\n          <ion-item>\n\n            <ion-label stacked>P. Zona Franca</ion-label>\n\n            <ion-input type="number" (change)="calculaPrecioFinal()" [(ngModel)]="precioZonaLibre"></ion-input>\n\n          </ion-item>\n\n          <ion-item>\n\n            <ion-label stacked>% Gastos % </ion-label>\n\n            <ion-input type="number" (change)="calculaPrecioFinal()" step="any" [(ngModel)]="porcentajeGastos"></ion-input>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-list>\n\n          <ion-item>\n\n            <ion-label stacked>Gastos</ion-label>\n\n            <ion-input type="number" (change)="calculaPrecioFinal()" step="any" disabled [(ngModel)]="montoGasto"></ion-input>\n\n          </ion-item>\n\n          <ion-item>\n\n            <ion-label stacked>Precio Compra</ion-label>\n\n            <ion-input [(ngModel)]="precioCompra" (change)="calculaPrecioFinal()" type="number" readonly></ion-input>\n\n          </ion-item>\n\n          <ion-item>\n\n            <ion-label stacked>Precio Venta</ion-label>\n\n            <ion-input type="number" [(ngModel)]="precioVenta " step="any" (change)="calculaPrecioFinal()"></ion-input>\n\n          </ion-item>\n\n          <ion-item>\n\n            <ion-label stacked>Precio Mercado</ion-label>\n\n            <ion-input type="number" [(ngModel)]="precioMercado" step="any" (change)="calculaPrecioFinal()"></ion-input>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n    <ion-row>\n\n      <ion-col>\n\n        <ion-list >\n\n          <ion-item>\n\n            <ion-label stacked>Mensaje</ion-label>\n\n            <ion-input type="text" [(ngModel)]="mensaje" type="text"></ion-input>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n    <ion-row>\n\n      <ion-col col-md-6 push-md-3>\n\n        <ion-list>\n\n          <ion-item>\n\n            <ion-label stacked>Gastos</ion-label>\n\n            <ion-input type="text"></ion-input>\n\n          </ion-item>\n\n          <ion-item>\n\n            <ion-label stacked>Precio Compra</ion-label>\n\n            <ion-input type="text"></ion-input>\n\n          </ion-item>\n\n          <ion-item>\n\n            <ion-label stacked>Precio Venta</ion-label>\n\n            <ion-input type="text"></ion-input>\n\n          </ion-item>\n\n          <ion-item>\n\n            <ion-label stacked>Precio Mercado</ion-label>\n\n            <ion-input type="text"></ion-input>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n      <ion-col col-md-3 push-md-3>\n\n        <ion-list>\n\n          <ion-item>\n\n            <ion-label stacked>Gastos</ion-label>\n\n            <ion-input type="text"></ion-input>\n\n          </ion-item>\n\n          <ion-item>\n\n            <ion-label stacked>Precio Compra</ion-label>\n\n            <ion-input type="text"></ion-input>\n\n          </ion-item>\n\n          <ion-item>\n\n            <ion-label stacked>Precio Venta</ion-label>\n\n            <ion-input type="text"></ion-input>\n\n          </ion-item>\n\n          <ion-item>\n\n            <ion-label stacked>Precio Mercado</ion-label>\n\n            <ion-input type="text"></ion-input>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n      <ion-col col-md-3 pull-md-9>\n\n        <ion-list>\n\n          <ion-item>\n\n            <ion-label stacked>Gastos</ion-label>\n\n            <ion-input type="text"></ion-input>\n\n          </ion-item>\n\n          <ion-item>\n\n            <ion-label stacked>Precio Compra</ion-label>\n\n            <ion-input type="text"></ion-input>\n\n          </ion-item>\n\n          <ion-item>\n\n            <ion-label stacked>Precio Venta</ion-label>\n\n            <ion-input type="text"></ion-input>\n\n          </ion-item>\n\n          <ion-item>\n\n            <ion-label stacked>Precio Mercado</ion-label>\n\n            <ion-input type="text"></ion-input>\n\n          </ion-item>\n\n        </ion-list>\n\n      </ion-col>\n\n    </ion-row>\n\n\n\n  </ion-grid>\n\n  <ion-fab bottom right >\n\n    <button ion-fab color="danger"><ion-icon name="more"></ion-icon></button>\n\n    <ion-fab-list side="top">\n\n      <button ion-fab color="primary" (click)="guardarArticulo()"><ion-icon name="create"></ion-icon></button>\n\n      <button ion-fab color="secondary" (click)="eliminarArticulo()"><ion-icon name="trash"></ion-icon></button>\n\n\n\n    </ion-fab-list>\n\n    <ion-fab-list side="left">\n\n      <button ion-fab color="naranja" (click)="listarProductos()"><ion-icon name="list"></ion-icon></button>\n\n      <button ion-fab color="secondary" (click)="reportesPedidos()" ><ion-icon name="print"></ion-icon></button>\n\n    </ion-fab-list>\n\n  </ion-fab>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"E:\Inventarios\ionicSIC\ionic-sic\src\pages\nuevo-producto\nuevo-producto.html"*/,
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* MenuController */],
-        __WEBPACK_IMPORTED_MODULE_3__providers_sic_service_sic_service__["a" /* SicServiceProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */],
-        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_4__ionic_native_device__["a" /* Device */], __WEBPACK_IMPORTED_MODULE_6__providers_token_share_token_share__["a" /* TokenShareProvider */]])
-], LoginPage);
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */], __WEBPACK_IMPORTED_MODULE_4__providers_sic_service_sic_service__["a" /* SicServiceProvider */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ToastController */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */]])
+], NuevoProductoPage);
 
-//# sourceMappingURL=login.js.map
+//# sourceMappingURL=nuevo-producto.js.map
 
 /***/ }),
 
@@ -741,7 +910,7 @@ LoginPage = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_sic_service_sic_service__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__request_request_pedido__ = __webpack_require__(265);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__request_request_pedido__ = __webpack_require__(258);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__modal_llegadas_modal_llegadas__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_data_share_data_share__ = __webpack_require__(80);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -812,7 +981,7 @@ var PedidosPage = (function () {
         this.idPedidoRecuperado = this.jsonConvert.id;
         this.txtFechaConvert = this.jsonConvert.fechaMovimiento;
         this.txtNumMovimiento = this.jsonConvert.nroMovimiento;
-        this.txtCodProveedor = this.jsonConvert.codigoProveedor;
+        this.txtCodProveedor = this.jsonConvert.codigoProveedor.toUpperCase();
         this.BuscarProveedor();
         this.txtDescripcion = this.jsonConvert.observacion;
         this.listadoInPedidos = [];
@@ -858,7 +1027,7 @@ var PedidosPage = (function () {
         loading.present();
         var id = '';
         var url = '/pedido/update';
-        var pedido = new __WEBPACK_IMPORTED_MODULE_3__request_request_pedido__["b" /* Pedido */](this.idPedidoRecuperado, this.txtFechaConvert, this.txtNumMovimiento, this.txtCodProveedor, this.txtDescripcion, this.listadoInPedidos);
+        var pedido = new __WEBPACK_IMPORTED_MODULE_3__request_request_pedido__["b" /* Pedido */](this.idPedidoRecuperado, this.txtFechaConvert, this.txtNumMovimiento, this.txtCodProveedor.toUpperCase(), this.txtDescripcion, this.listadoInPedidos);
         var requestPedido = new __WEBPACK_IMPORTED_MODULE_3__request_request_pedido__["c" /* RequestPedido */](pedido);
         this.sicService.putGlobal(requestPedido, url, id).subscribe(function (data) {
             loading.dismiss();
@@ -885,6 +1054,17 @@ var PedidosPage = (function () {
                 alert.present();
                 return;
             }
+        }, function (err) {
+            loading.dismiss();
+            console.log(err);
+            var alert;
+            alert = _this.alertCtrl.create({
+                title: 'Ups',
+                subTitle: 'Error al guardar los datos.',
+                buttons: ['Aceptar']
+            });
+            alert.present();
+            return;
         });
     };
     //debe obtener el ultimo numero de pedido
@@ -942,6 +1122,10 @@ var PedidosPage = (function () {
                     _this.txtNumMovimiento = 0;
                 }
             }
+        }, function (err) {
+            loading.dismiss();
+            console.log(err);
+            _this.presentToast('No se pudo recuperar los datos solicitados.');
         });
     };
     PedidosPage.prototype.BuscarProveedor = function () {
@@ -950,18 +1134,22 @@ var PedidosPage = (function () {
             content: 'Obteniendo los datos'
         });
         loading.present();
-        var url = '/pedido/proveedor/quest/' + this.txtCodProveedor;
+        var url = '/pedido/proveedor/quest/' + this.txtCodProveedor.toUpperCase();
         this.sicService.getGlobal(url).subscribe(function (data) {
             loading.dismiss();
             if (data != null) {
                 if (data.respuesta) {
-                    _this.txtCodProveedor = data.codigo;
+                    _this.txtCodProveedor = data.codigo.toUpperCase();
                     _this.txtNomProveedor = data.nombre;
                 }
                 else {
                     _this.presentToast('No se pudo recuperar los datos solicitados.');
                 }
             }
+        }, function (err) {
+            loading.dismiss();
+            console.log(err);
+            _this.presentToast('No se pudo recuperar los datos solicitados.');
         });
     };
     PedidosPage.prototype.limpiarDatos = function () {
@@ -1114,12 +1302,16 @@ var PedidosPage = (function () {
                 text: 'Aceptar',
                 handler: function (data) {
                     console.log('Datos Enviados:', data);
-                    _this.txtCodProveedor = data;
+                    _this.txtCodProveedor = data.toUpperCase();
                     _this.BuscarProveedor();
                 }
             });
             alert.present();
             return data;
+        }, function (err) {
+            loading.dismiss();
+            console.log(err);
+            _this.presentToast('No se pudo recuperar los datos solicitados.');
         });
     };
     PedidosPage.prototype.obtenerArticulo = function () {
@@ -1128,12 +1320,12 @@ var PedidosPage = (function () {
             content: 'Listando Productos'
         });
         loading.present();
-        var urlListaProveedor = '/pedido/articulo/quest/' + this.txtCodArticulo;
+        var urlListaProveedor = '/pedido/articulo/quest/' + this.txtCodArticulo.toUpperCase();
         this.sicService.getGlobal(urlListaProveedor).subscribe(function (data) {
             loading.dismiss();
             if (data != null) {
                 if (data) {
-                    _this.txtCodArticulo = data.codigo;
+                    _this.txtCodArticulo = data.codigo.toUpperCase();
                     _this.txtDescripcion2 = data.nombre;
                     _this.txtPrecZonLib = data.precio;
                 }
@@ -1141,6 +1333,10 @@ var PedidosPage = (function () {
                     _this.presentToast('No se pudo recuperar los datos solicitados.');
                 }
             }
+        }, function (err) {
+            loading.dismiss();
+            console.log(err);
+            _this.presentToast('No se pudo recuperar los datos solicitados.');
         });
     };
     PedidosPage.prototype.listaExistenciasArticulos = function () {
@@ -1149,7 +1345,7 @@ var PedidosPage = (function () {
             content: 'Listando Productos'
         });
         loading.present();
-        var urlListaProveedor = '/pedido/articulo/' + this.txtCodArticulo + '/existence';
+        var urlListaProveedor = '/pedido/articulo/' + this.txtCodArticulo.toUpperCase() + '/existence';
         this.sicService.getGlobal(urlListaProveedor).subscribe(function (data) {
             loading.dismiss();
             var alert = _this.alertCtrl.create();
@@ -1168,12 +1364,16 @@ var PedidosPage = (function () {
                 text: 'Aceptar',
                 handler: function (data) {
                     console.log('Datos Enviados:', data);
-                    _this.txtCodProveedor = data;
+                    _this.txtCodProveedor = data.toUpperCase();
                     _this.BuscarProveedor();
                 }
             });
             alert.present();
             return data;
+        }, function (err) {
+            loading.dismiss();
+            console.log(err);
+            _this.presentToast('No se pudo recuperar los datos solicitados.');
         });
     };
     PedidosPage.prototype.listaArticulos = function () {
@@ -1201,12 +1401,16 @@ var PedidosPage = (function () {
                 text: 'Aceptar',
                 handler: function (data) {
                     console.log('Datos Enviados:', data);
-                    _this.txtCodArticulo = data;
+                    _this.txtCodArticulo = data.toUpperCase();
                     _this.obtenerArticulo();
                 }
             });
             alert.present();
             return data;
+        }, function (err) {
+            loading.dismiss();
+            console.log(err);
+            _this.presentToast('No se pudo recuperar los datos solicitados.');
         });
     };
     //TODO: preguntar este metodo
@@ -1235,12 +1439,16 @@ var PedidosPage = (function () {
                 text: 'Aceptar',
                 handler: function (data) {
                     console.log('Datos Enviados:', data);
-                    _this.txtCodArticulo = data;
+                    _this.txtCodArticulo = data.toUpperCase();
                     _this.obtenerArticulo();
                 }
             });
             alert.present();
             return data;
+        }, function (err) {
+            loading.dismiss();
+            console.log(err);
+            _this.presentToast('No se pudo recuperar los datos solicitados.');
         });
     };
     PedidosPage.prototype.confirmarAccion = function () {
@@ -1273,7 +1481,7 @@ var PedidosPage = (function () {
         });
         loading.present();
         var urlListaProveedor = '/pedido/add';
-        var pedido = new __WEBPACK_IMPORTED_MODULE_3__request_request_pedido__["b" /* Pedido */](null, this.txtFechaConvert, this.txtNumMovimiento, this.txtCodProveedor, this.txtDescripcion, this.listadoInPedidos);
+        var pedido = new __WEBPACK_IMPORTED_MODULE_3__request_request_pedido__["b" /* Pedido */](null, this.txtFechaConvert, this.txtNumMovimiento, this.txtCodProveedor.toUpperCase(), this.txtDescripcion, this.listadoInPedidos);
         var requestPedido = new __WEBPACK_IMPORTED_MODULE_3__request_request_pedido__["c" /* RequestPedido */](pedido);
         this.sicService.postGlobal(requestPedido, urlListaProveedor).subscribe(function (data) {
             loading.dismiss();
@@ -1284,10 +1492,14 @@ var PedidosPage = (function () {
             else {
                 _this.presentToast(data.mensaje);
             }
+        }, function (err) {
+            loading.dismiss();
+            console.log(err);
+            _this.presentToast('No se pudo recuperar los datos solicitados.');
         });
     };
     PedidosPage.prototype.addListaPedidos = function (cantidadCompra) {
-        var articuloPedido = new __WEBPACK_IMPORTED_MODULE_3__request_request_pedido__["a" /* ArticuloPedido */](null, this.txtCodArticulo, (cantidadCompra * 1), (this.txtPrecZonLib * 1), null);
+        var articuloPedido = new __WEBPACK_IMPORTED_MODULE_3__request_request_pedido__["a" /* ArticuloPedido */](null, this.txtCodArticulo.toUpperCase(), (cantidadCompra * 1), (this.txtPrecZonLib * 1), null);
         this.listadoInPedidos.push(articuloPedido);
         this.txtCantidadTotal = 0;
         this.txtPrecioTotal = 0;
@@ -1338,6 +1550,10 @@ var PedidosPage = (function () {
             else {
                 _this.presentToast('No se pudo recuperar los datos solicitados.');
             }
+        }, function (err) {
+            loading.dismiss();
+            console.log(err);
+            _this.presentToast('No se pudo recuperar los datos solicitados.');
         });
     };
     PedidosPage.prototype.detalleLlegadas = function () {
@@ -1360,6 +1576,10 @@ var PedidosPage = (function () {
             else {
                 _this.presentToast('No se pudo recuperar los datos solicitados.');
             }
+        }, function (err) {
+            loading.dismiss();
+            console.log(err);
+            _this.presentToast('No se pudo recuperar los datos solicitados.');
         });
     };
     PedidosPage.prototype.presentPrompt = function () {
@@ -1413,6 +1633,10 @@ var PedidosPage = (function () {
                             else {
                                 _this.presentToast(data.mensaje);
                             }
+                        }, function (err) {
+                            loading.dismiss();
+                            console.log(err);
+                            _this.presentToast('No se pudo recuperar los datos solicitados.');
                         });
                     }
                 }
@@ -1427,7 +1651,7 @@ var PedidosPage = (function () {
 }());
 PedidosPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-pedidos',template:/*ion-inline-start:"D:\IonicInventarios\sic\src\pages\pedidos\pedidos.html"*/'<!--\n  Generated template for the PedidosPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="cafe-claro">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Datos Pedidos</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n  <ion-list>\n    <!--<ion-header>Datos de Pedido</ion-header>-->\n    <ion-grid>\n      <ion-row>\n        <ion-col>\n          <ion-list>\n            <ion-item>\n              <ion-label stacked>Numero de Movimiento</ion-label>\n              <ion-input [(ngModel)]="txtNumMovimiento" type="number"></ion-input>\n            </ion-item>\n            <ion-item>\n              <ion-label stacked>Fecha de Movimiento</ion-label>\n              <ion-datetime displayFormat="DD/MM/YYYY" [(ngModel)]="txtFechaConvert"></ion-datetime>\n            </ion-item>\n            <ion-item>\n              <ion-label stacked>Código Proveedor</ion-label>\n              <ion-input [(ngModel)]="txtCodProveedor" (change)="BuscarProveedor()" type="text"></ion-input>\n            </ion-item>\n          </ion-list>\n        </ion-col>\n        <ion-col>\n          <ion-list>\n            <ion-item >\n              <ion-label stacked>Observación</ion-label>\n              <ion-textarea [(ngModel)]="txtDescripcion"></ion-textarea>\n            </ion-item>\n\n          </ion-list>\n        </ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col>\n          <ion-list>\n            <ion-item class="remarcados">\n              <ion-label stacked>Nombre Proveedor</ion-label>\n              <ion-input disabled [(ngModel)]="txtNomProveedor" type="text" ></ion-input>\n\n            </ion-item>\n          </ion-list>\n        </ion-col>\n      </ion-row>\n\n      <ion-row>\n        <ion-col>\n          <ion-list>\n            <ion-item>\n              <ion-label stacked>Codigo Artículo</ion-label>\n              <ion-input (change)="obtenerArticulo()" [(ngModel)]="txtCodArticulo" type="text"></ion-input>\n\n            </ion-item>\n          </ion-list>\n        </ion-col>\n        <ion-col>\n          <ion-list>\n            <ion-item>\n              <ion-label stacked>Cantidad - Compra</ion-label>\n              <ion-input #cantidadCompra (keyup.enter)="addListaPedidos(cantidadCompra.value)" [(ngModel)]="txtCantidadCompra" type="number"></ion-input>\n\n            </ion-item>\n          </ion-list>\n        </ion-col>\n        <ion-col>\n          <ion-list>\n            <ion-item>\n              <ion-label stacked>Precio Uni. Zona Lib.</ion-label>\n              <ion-input [(ngModel)]="txtPrecZonLib" type="number"></ion-input>\n            </ion-item>\n          </ion-list>\n        </ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col>\n          <ion-list>\n            <ion-item class="remarcados">\n              <ion-label stacked>Nombre Artículo</ion-label>\n              <ion-input disabled [(ngModel)]="txtDescripcion2" type="text"></ion-input>\n            </ion-item>\n          </ion-list>\n        </ion-col>\n      </ion-row>\n    </ion-grid>\n    <ion-scroll scrollX="true" scrollY="true" style="width: 100%; height: 150px">\n      <ion-grid class="grilla-pedidos">\n        <ion-row>\n        <ion-col>\n            <ion-item>\n              <ion-label class="titulos" stacked>Codigo</ion-label>\n\n            </ion-item>\n          </ion-col>\n          <ion-col>\n            <ion-item>\n              <ion-label class="titulos" stacked>Cantidad</ion-label>\n\n            </ion-item>\n          </ion-col>\n          <ion-col>\n            <ion-item>\n              <ion-label class="titulos" stacked>Precio Venta</ion-label>\n\n            </ion-item>\n          </ion-col>\n          <ion-col>\n            <ion-item>\n              <ion-label class="titulos" stacked>Sub Total</ion-label>\n\n            </ion-item>\n          </ion-col>\n        </ion-row>\n\n        <ion-row *ngFor="let item of listadoInPedidos" class="grillas" >\n          <ion-col>\n            <ion-item class="grillas">\n              <ion-label stacked class="wrap"> {{item.codigoArticulo}}</ion-label>\n            </ion-item>\n          </ion-col>\n          <ion-col>\n            <ion-item class="grillas" class="wrap">\n              <ion-label stacked>{{item.cantidad}}</ion-label>\n            </ion-item>\n          </ion-col>\n          <ion-col>\n            <ion-item class="grillas" class="wrap">\n              <ion-label stacked>{{item.precio}}</ion-label>\n            </ion-item>\n          </ion-col>\n          <ion-col (click)="eliminarArticuloPedido(item)">\n            <ion-item class="grillas" class="wrap">\n              <ion-label stacked>{{item.cantidad * item.precio}} <ion-icon name="trash"></ion-icon></ion-label>\n            </ion-item>\n          </ion-col>\n        </ion-row>\n      </ion-grid>\n    </ion-scroll>\n    <ion-grid>\n      <ion-row>\n        <ion-col>\n          <ion-item>\n            <ion-label stacked>Cantidad Total</ion-label>\n            <ion-input [(ngModel)]="txtCantidadTotal" type="text" readonly value="123"></ion-input>\n          </ion-item>\n        </ion-col>\n        <ion-col>\n          <ion-item>\n            <ion-label stacked>Precio Total</ion-label>\n            <ion-input [(ngModel)]="txtPrecioTotal" type="text" readonly value="123"></ion-input>\n          </ion-item>\n\n        </ion-col>\n      </ion-row>\n    </ion-grid>\n  </ion-list>\n  <ion-fab bottom right >\n    <button ion-fab color="danger"><ion-icon name="more"></ion-icon></button>\n    <ion-fab-list side="top">\n      <button ion-fab color="primary" (click)="accionPorLlegar()" ><ion-icon name="send"></ion-icon></button>\n      <button ion-fab color="cafe-claro" (click)="accionArticulo()" ><ion-icon name="archive"></ion-icon></button>\n      <button ion-fab color="secondary" (click)="accionProveedor()" ><ion-icon name="body"></ion-icon></button>\n      <button ion-fab color="naranja" (click)="accionPedidos()" ><ion-icon name="cart"></ion-icon></button>\n    </ion-fab-list>\n    <ion-fab-list side="left">\n      <button ion-fab color="primary" (click)="iniciarNuevoPedido()" ><ion-icon name="document"></ion-icon></button><!--Buscar-->\n      <button ion-fab color="cafe-claro" (click)="confirmarAccion()" ><ion-icon name="cloud-download"></ion-icon></button><!--Por Llegar-->\n      <button ion-fab color="naranja" (click)="confirmarActualizacion()" ><ion-icon name="clipboard"></ion-icon></button>\n      <!--<button ion-fab color="secondary" ><ion-icon name="trash"></ion-icon></button><!--Nuevo Almacen-->\n      <!--<button ion-fab color="naranja" ><ion-icon name="print"></ion-icon></button><!--Llegadas-->\n    </ion-fab-list>\n  </ion-fab>\n</ion-content>\n'/*ion-inline-end:"D:\IonicInventarios\sic\src\pages\pedidos\pedidos.html"*/,
+        selector: 'page-pedidos',template:/*ion-inline-start:"E:\Inventarios\ionicSIC\ionic-sic\src\pages\pedidos\pedidos.html"*/'<!--\n\n  Generated template for the PedidosPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar color="cafe-claro">\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Datos Pedidos</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content>\n\n  <ion-list>\n\n    <!--<ion-header>Datos de Pedido</ion-header>-->\n\n    <ion-grid>\n\n      <ion-row>\n\n        <ion-col>\n\n          <ion-list>\n\n            <ion-item>\n\n              <ion-label stacked>Numero de Movimiento</ion-label>\n\n              <ion-input [(ngModel)]="txtNumMovimiento" type="number"></ion-input>\n\n            </ion-item>\n\n            <ion-item>\n\n              <ion-label stacked>Fecha de Movimiento</ion-label>\n\n              <ion-datetime displayFormat="DD/MM/YYYY" [(ngModel)]="txtFechaConvert"></ion-datetime>\n\n            </ion-item>\n\n            <ion-item>\n\n              <ion-label stacked>Código Proveedor</ion-label>\n\n              <ion-input [(ngModel)]="txtCodProveedor" (change)="BuscarProveedor()" type="text"></ion-input>\n\n            </ion-item>\n\n          </ion-list>\n\n        </ion-col>\n\n        <ion-col>\n\n          <ion-list>\n\n            <ion-item >\n\n              <ion-label stacked>Observación</ion-label>\n\n              <ion-textarea [(ngModel)]="txtDescripcion"></ion-textarea>\n\n            </ion-item>\n\n\n\n          </ion-list>\n\n        </ion-col>\n\n      </ion-row>\n\n      <ion-row>\n\n        <ion-col>\n\n          <ion-list>\n\n            <ion-item class="remarcados">\n\n              <ion-label stacked>Nombre Proveedor</ion-label>\n\n              <ion-input disabled [(ngModel)]="txtNomProveedor" type="text" ></ion-input>\n\n\n\n            </ion-item>\n\n          </ion-list>\n\n        </ion-col>\n\n      </ion-row>\n\n\n\n      <ion-row>\n\n        <ion-col>\n\n          <ion-list>\n\n            <ion-item>\n\n              <ion-label stacked>Codigo Artículo</ion-label>\n\n              <ion-input (change)="obtenerArticulo()" [(ngModel)]="txtCodArticulo" type="text"></ion-input>\n\n\n\n            </ion-item>\n\n          </ion-list>\n\n        </ion-col>\n\n        <ion-col>\n\n          <ion-list>\n\n            <ion-item>\n\n              <ion-label stacked>Cantidad - Compra</ion-label>\n\n              <ion-input #cantidadCompra (keyup.enter)="addListaPedidos(cantidadCompra.value)" [(ngModel)]="txtCantidadCompra" type="number"></ion-input>\n\n\n\n            </ion-item>\n\n          </ion-list>\n\n        </ion-col>\n\n        <ion-col>\n\n          <ion-list>\n\n            <ion-item>\n\n              <ion-label stacked>Precio Uni. Zona Lib.</ion-label>\n\n              <ion-input [(ngModel)]="txtPrecZonLib" type="number"></ion-input>\n\n            </ion-item>\n\n          </ion-list>\n\n        </ion-col>\n\n      </ion-row>\n\n      <ion-row>\n\n        <ion-col>\n\n          <ion-list>\n\n            <ion-item class="remarcados">\n\n              <ion-label stacked>Nombre Artículo</ion-label>\n\n              <ion-input disabled [(ngModel)]="txtDescripcion2" type="text"></ion-input>\n\n            </ion-item>\n\n          </ion-list>\n\n        </ion-col>\n\n      </ion-row>\n\n    </ion-grid>\n\n    <ion-scroll scrollX="true" scrollY="true" style="width: 100%; height: 150px">\n\n      <ion-grid class="grilla-pedidos">\n\n        <ion-row>\n\n        <ion-col>\n\n            <ion-item>\n\n              <ion-label class="titulos" stacked>Codigo</ion-label>\n\n\n\n            </ion-item>\n\n          </ion-col>\n\n          <ion-col>\n\n            <ion-item>\n\n              <ion-label class="titulos" stacked>Cantidad</ion-label>\n\n\n\n            </ion-item>\n\n          </ion-col>\n\n          <ion-col>\n\n            <ion-item>\n\n              <ion-label class="titulos" stacked>Precio Venta</ion-label>\n\n\n\n            </ion-item>\n\n          </ion-col>\n\n          <ion-col>\n\n            <ion-item>\n\n              <ion-label class="titulos" stacked>Sub Total</ion-label>\n\n\n\n            </ion-item>\n\n          </ion-col>\n\n        </ion-row>\n\n\n\n        <ion-row *ngFor="let item of listadoInPedidos" class="grillas" >\n\n          <ion-col>\n\n            <ion-item class="grillas">\n\n              <ion-label stacked class="wrap"> {{item.codigoArticulo}}</ion-label>\n\n            </ion-item>\n\n          </ion-col>\n\n          <ion-col>\n\n            <ion-item class="grillas" class="wrap">\n\n              <ion-label stacked>{{item.cantidad}}</ion-label>\n\n            </ion-item>\n\n          </ion-col>\n\n          <ion-col>\n\n            <ion-item class="grillas" class="wrap">\n\n              <ion-label stacked>{{item.precio}}</ion-label>\n\n            </ion-item>\n\n          </ion-col>\n\n          <ion-col (click)="eliminarArticuloPedido(item)">\n\n            <ion-item class="grillas" class="wrap">\n\n              <ion-label stacked>{{item.cantidad * item.precio}} <ion-icon name="trash"></ion-icon></ion-label>\n\n            </ion-item>\n\n          </ion-col>\n\n        </ion-row>\n\n      </ion-grid>\n\n    </ion-scroll>\n\n    <ion-grid>\n\n      <ion-row>\n\n        <ion-col>\n\n          <ion-item>\n\n            <ion-label stacked>Cantidad Total</ion-label>\n\n            <ion-input [(ngModel)]="txtCantidadTotal" type="text" readonly value="123"></ion-input>\n\n          </ion-item>\n\n        </ion-col>\n\n        <ion-col>\n\n          <ion-item>\n\n            <ion-label stacked>Precio Total</ion-label>\n\n            <ion-input [(ngModel)]="txtPrecioTotal" type="text" readonly value="123"></ion-input>\n\n          </ion-item>\n\n\n\n        </ion-col>\n\n      </ion-row>\n\n    </ion-grid>\n\n  </ion-list>\n\n  <ion-fab bottom right >\n\n    <button ion-fab color="danger"><ion-icon name="more"></ion-icon></button>\n\n    <ion-fab-list side="top">\n\n      <button ion-fab color="primary" (click)="accionPorLlegar()" ><ion-icon name="send"></ion-icon></button>\n\n      <button ion-fab color="cafe-claro" (click)="accionArticulo()" ><ion-icon name="archive"></ion-icon></button>\n\n      <button ion-fab color="secondary" (click)="accionProveedor()" ><ion-icon name="body"></ion-icon></button>\n\n      <button ion-fab color="naranja" (click)="accionPedidos()" ><ion-icon name="cart"></ion-icon></button>\n\n    </ion-fab-list>\n\n    <ion-fab-list side="left">\n\n      <button ion-fab color="primary" (click)="iniciarNuevoPedido()" ><ion-icon name="document"></ion-icon></button><!--Buscar-->\n\n      <button ion-fab color="cafe-claro" (click)="confirmarAccion()" ><ion-icon name="cloud-download"></ion-icon></button><!--Por Llegar-->\n\n      <button ion-fab color="naranja" (click)="confirmarActualizacion()" ><ion-icon name="clipboard"></ion-icon></button>\n\n      <!--<button ion-fab color="secondary" ><ion-icon name="trash"></ion-icon></button><!--Nuevo Almacen-->\n\n      <!--<button ion-fab color="naranja" ><ion-icon name="print"></ion-icon></button><!--Llegadas-->\n\n    </ion-fab-list>\n\n  </ion-fab>\n\n</ion-content>\n\n'/*ion-inline-end:"E:\Inventarios\ionicSIC\ionic-sic\src\pages\pedidos\pedidos.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */],
         __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_2__providers_sic_service_sic_service__["a" /* SicServiceProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ToastController */],
@@ -1439,257 +1663,6 @@ PedidosPage = __decorate([
 /***/ }),
 
 /***/ 113:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NuevoProductoPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__model_mdl_articulo__ = __webpack_require__(266);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__clases_obj_articulo__ = __webpack_require__(267);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_sic_service_sic_service__ = __webpack_require__(34);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-/**
- * Generated class for the NuevoProductoPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var NuevoProductoPage = (function () {
-    function NuevoProductoPage(navCtrl, navParams, sicService, alertCtrl, toastCtrl, loadingCtrl, actionSheetCtrl) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.sicService = sicService;
-        this.alertCtrl = alertCtrl;
-        this.toastCtrl = toastCtrl;
-        this.loadingCtrl = loadingCtrl;
-        this.actionSheetCtrl = actionSheetCtrl;
-        this.precioKilo = 0;
-        this.pesoStock = 0;
-        this.precioZonaLibre = 0;
-        this.porcentajeGastos = 0;
-        this.montoGasto = 0;
-        this.precioCompra = 0;
-        this.precioMercado = 0;
-        this.precioVenta = 0;
-        this.url = 'https://app-pos.herokuapp.com'; //'https://desa-pos.herokuapp.com';//'https://app-pos.herokuapp.com';
-    }
-    NuevoProductoPage.prototype.ngOnInit = function () {
-        this.seActualiza = false;
-    };
-    NuevoProductoPage.prototype.calculaPrecioFinal = function () {
-        this.montoGasto = (this.porcentajeGastos * this.precioZonaLibre) / 100;
-        this.precioCompra = (this.precioKilo * this.pesoStock) + (this.precioZonaLibre * 1) + (this.montoGasto * 1);
-    };
-    NuevoProductoPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad NuevoProductoPage');
-    };
-    NuevoProductoPage.prototype.presentAlert = function (titulo, mensaje) {
-        var alert = this.alertCtrl.create({
-            title: titulo,
-            subTitle: mensaje,
-            buttons: ['Aceptar']
-        });
-        alert.present();
-    };
-    NuevoProductoPage.prototype.presentToast = function (mensaje) {
-        var toast = this.toastCtrl.create({
-            message: mensaje,
-            duration: 3000,
-            position: 'bottom'
-        });
-        toast.onDidDismiss(function () {
-            console.log('Toas Dimissed');
-        });
-        toast.present();
-    };
-    NuevoProductoPage.prototype.buscaProducto = function () {
-        var _this = this;
-        var loading = this.loadingCtrl.create({
-            content: 'Obteniendo los datos'
-        });
-        loading.present();
-        //this.presentLoadingDefault();
-        this.limpiarDatos();
-        this.sicService.getArticulo(this.codigoArticulo).subscribe(function (data) {
-            loading.dismiss();
-            //this.dimmisLoading();
-            console.log(data);
-            //this.respuestaArticulo = data;
-            if (data.articulo != null) {
-                _this.presentToast('Se ha encontrado una coincidencia');
-                _this.seActualiza = true;
-                _this.descripcion = data.articulo.nombre;
-                _this.precioKilo = data.articulo.precioKilo;
-                _this.pesoStock = data.articulo.peso;
-                _this.precioZonaLibre = data.articulo.precioZonaLibre;
-                _this.porcentajeGastos = data.articulo.porcentajeGasto;
-                _this.precioCompra = data.articulo.precioCompra;
-                _this.precioMercado = data.articulo.precioMercado;
-                _this.precioVenta = data.articulo.precioVenta;
-                _this.montoGasto = (_this.porcentajeGastos * _this.precioZonaLibre) / 100;
-                _this.mensaje = data.articulo.descripcion;
-            }
-        });
-    };
-    NuevoProductoPage.prototype.guardarArticulo = function () {
-        var _this = this;
-        var loading = this.loadingCtrl.create({
-            content: 'Registrando los datos...'
-        });
-        loading.present();
-        if (!this.seActualiza) {
-            this.sicService.addArticulo(new __WEBPACK_IMPORTED_MODULE_2__model_mdl_articulo__["a" /* MdlArticulo */](new __WEBPACK_IMPORTED_MODULE_3__clases_obj_articulo__["a" /* ObjArticulo */](this.codigoArticulo, this.descripcion, this.mensaje, this.precioKilo, this.pesoStock, this.precioZonaLibre, this.porcentajeGastos, this.montoGasto, this.precioCompra, this.precioVenta, this.precioMercado))).subscribe(function (data) {
-                loading.dismiss();
-                _this.limpiarDatos();
-                _this.presentAlert('Información', 'Su producto fue registrado correctamente');
-                return data;
-            });
-        }
-        else {
-            this.sicService.updateArticulo(new __WEBPACK_IMPORTED_MODULE_2__model_mdl_articulo__["a" /* MdlArticulo */](new __WEBPACK_IMPORTED_MODULE_3__clases_obj_articulo__["a" /* ObjArticulo */](this.codigoArticulo, this.descripcion, this.mensaje, this.precioKilo, this.pesoStock, this.precioZonaLibre, this.porcentajeGastos, this.montoGasto, this.precioCompra, this.precioVenta, this.precioMercado))).subscribe(function (data) {
-                _this.limpiarDatos();
-                loading.dismiss();
-                _this.presentAlert('Información', 'Su producto fué actualizado correctamente');
-                return data;
-            });
-        }
-    };
-    NuevoProductoPage.prototype.eliminarArticulo = function () {
-        var _this = this;
-        var loading = this.loadingCtrl.create({
-            content: 'Registrando los datos...'
-        });
-        loading.present();
-        if (this.seActualiza) {
-            console.log(this.seActualiza);
-            this.sicService.deleteArticulo(this.codigoArticulo).subscribe(function (data) {
-                loading.dismiss();
-                _this.limpiarDatos();
-                _this.presentAlert('Información', 'Su producto fué eliminado correctamente');
-                return data;
-            });
-        }
-    };
-    NuevoProductoPage.prototype.limpiarDatos = function () {
-        this.seActualiza = false;
-        this.descripcion = '';
-        this.precioKilo = 0;
-        this.pesoStock = 0;
-        this.precioZonaLibre = 0;
-        this.porcentajeGastos = 0;
-        this.precioCompra = 0;
-        this.precioMercado = 0;
-        this.precioVenta = 0;
-        this.mensaje = '';
-        this.montoGasto = 0;
-    };
-    NuevoProductoPage.prototype.listarProductos = function () {
-        var _this = this;
-        var loading = this.loadingCtrl.create({
-            content: 'Listando Productos'
-        });
-        loading.present();
-        this.sicService.listArticulos().subscribe(function (data) {
-            loading.dismiss();
-            var alert = _this.alertCtrl.create();
-            alert.setTitle('Seleccione un Item');
-            for (var _i = 0, _a = data.lista; _i < _a.length; _i++) {
-                var lista = _a[_i];
-                alert.addInput({
-                    type: 'radio',
-                    name: 'codigo',
-                    label: '' + lista.codigo + ' -- ' + lista.nombre,
-                    value: lista.codigo
-                });
-            }
-            alert.addButton('Cancelar');
-            alert.addButton({
-                text: 'Aceptar',
-                handler: function (data) {
-                    console.log('Datos Enviados:', data);
-                    _this.codigoArticulo = data;
-                    _this.buscaProducto();
-                }
-            });
-            alert.present();
-            return data;
-        });
-    };
-    NuevoProductoPage.prototype.reportesPedidos = function () {
-        var _this = this;
-        var actionSheet = this.actionSheetCtrl.create({
-            title: 'Reportes',
-            buttons: [
-                {
-                    text: 'Stock PDF',
-                    handler: function () {
-                        console.log('Destructive clicked');
-                        window.open(_this.url + "/reporte/stock/pdf/download", "_blank");
-                    }
-                },
-                {
-                    text: 'Stock Excel',
-                    handler: function () {
-                        console.log('Destructive clicked');
-                        window.open(_this.url + "/reporte/stock/xls/download", "_blank");
-                    }
-                },
-                {
-                    text: 'Existencias PDF',
-                    handler: function () {
-                        console.log('Archive clicked');
-                        // /reporte/existencia/{formato}/download
-                        window.open(_this.url + "/reporte/existencia/pdf/download", "_blank");
-                    }
-                },
-                {
-                    text: 'Existencias Excel',
-                    handler: function () {
-                        console.log('Archive clicked');
-                        window.open(_this.url + "/reporte/existencia/xls/download", "_blank");
-                    }
-                },
-                {
-                    text: 'Cancel',
-                    role: 'cancel',
-                    handler: function () {
-                        console.log('Cancel clicked');
-                    }
-                }
-            ]
-        });
-        actionSheet.present();
-    };
-    return NuevoProductoPage;
-}());
-NuevoProductoPage = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-nuevo-producto',template:/*ion-inline-start:"D:\IonicInventarios\sic\src\pages\nuevo-producto\nuevo-producto.html"*/'<!--\n  Generated template for the NuevoProductoPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar color="cafe-claro">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Registrar Nuevo Producto</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n<ion-content>\n  <ion-grid>\n    <ion-row>\n      <ion-col>\n        <ion-list >\n          <ion-item>\n            <ion-label stacked>Código Artículo</ion-label>\n            <ion-input type="text" [(ngModel)]="codigoArticulo" placeholder="ej. asc0123" (change)="buscaProducto()"></ion-input>\n          </ion-item>\n        </ion-list>\n      </ion-col>\n    </ion-row>\n    <ion-row>\n      <ion-col>\n        <ion-list >\n          <ion-item>\n            <ion-label stacked>Descripción</ion-label>\n            <ion-input type="text" [(ngModel)]="descripcion" type="text"></ion-input>\n          </ion-item>\n        </ion-list>\n      </ion-col>\n    </ion-row>\n    <ion-row>\n      <ion-col>\n        <ion-list >\n          <ion-item>\n            <ion-label stacked>Precio por Kilo</ion-label>\n            <ion-input [(ngModel)]="precioKilo" (change)="calculaPrecioFinal()" type="number"></ion-input>\n          </ion-item>\n          <ion-item>\n            <ion-label stacked>Peso Stock</ion-label>\n            <ion-input [(ngModel)]="pesoStock" (change)="calculaPrecioFinal()" type="number"></ion-input>\n          </ion-item>\n          <ion-item>\n            <ion-label stacked>P. Zona Franca</ion-label>\n            <ion-input type="number" (change)="calculaPrecioFinal()" [(ngModel)]="precioZonaLibre"></ion-input>\n          </ion-item>\n          <ion-item>\n            <ion-label stacked>% Gastos % </ion-label>\n            <ion-input type="number" (change)="calculaPrecioFinal()" step="any" [(ngModel)]="porcentajeGastos"></ion-input>\n          </ion-item>\n        </ion-list>\n      </ion-col>\n      <ion-col>\n        <ion-list>\n          <ion-item>\n            <ion-label stacked>Gastos</ion-label>\n            <ion-input type="number" (change)="calculaPrecioFinal()" step="any" disabled [(ngModel)]="montoGasto"></ion-input>\n          </ion-item>\n          <ion-item>\n            <ion-label stacked>Precio Compra</ion-label>\n            <ion-input [(ngModel)]="precioCompra" (change)="calculaPrecioFinal()" type="number" readonly></ion-input>\n          </ion-item>\n          <ion-item>\n            <ion-label stacked>Precio Venta</ion-label>\n            <ion-input type="number" [(ngModel)]="precioVenta " step="any" (change)="calculaPrecioFinal()"></ion-input>\n          </ion-item>\n          <ion-item>\n            <ion-label stacked>Precio Mercado</ion-label>\n            <ion-input type="number" [(ngModel)]="precioMercado" step="any" (change)="calculaPrecioFinal()"></ion-input>\n          </ion-item>\n        </ion-list>\n      </ion-col>\n    </ion-row>\n    <ion-row>\n      <ion-col>\n        <ion-list >\n          <ion-item>\n            <ion-label stacked>Mensaje</ion-label>\n            <ion-input type="text" [(ngModel)]="mensaje" type="text"></ion-input>\n          </ion-item>\n        </ion-list>\n      </ion-col>\n    </ion-row>\n    <ion-row>\n      <ion-col col-md-6 push-md-3>\n        <ion-list>\n          <ion-item>\n            <ion-label stacked>Gastos</ion-label>\n            <ion-input type="text"></ion-input>\n          </ion-item>\n          <ion-item>\n            <ion-label stacked>Precio Compra</ion-label>\n            <ion-input type="text"></ion-input>\n          </ion-item>\n          <ion-item>\n            <ion-label stacked>Precio Venta</ion-label>\n            <ion-input type="text"></ion-input>\n          </ion-item>\n          <ion-item>\n            <ion-label stacked>Precio Mercado</ion-label>\n            <ion-input type="text"></ion-input>\n          </ion-item>\n        </ion-list>\n      </ion-col>\n      <ion-col col-md-3 push-md-3>\n        <ion-list>\n          <ion-item>\n            <ion-label stacked>Gastos</ion-label>\n            <ion-input type="text"></ion-input>\n          </ion-item>\n          <ion-item>\n            <ion-label stacked>Precio Compra</ion-label>\n            <ion-input type="text"></ion-input>\n          </ion-item>\n          <ion-item>\n            <ion-label stacked>Precio Venta</ion-label>\n            <ion-input type="text"></ion-input>\n          </ion-item>\n          <ion-item>\n            <ion-label stacked>Precio Mercado</ion-label>\n            <ion-input type="text"></ion-input>\n          </ion-item>\n        </ion-list>\n      </ion-col>\n      <ion-col col-md-3 pull-md-9>\n        <ion-list>\n          <ion-item>\n            <ion-label stacked>Gastos</ion-label>\n            <ion-input type="text"></ion-input>\n          </ion-item>\n          <ion-item>\n            <ion-label stacked>Precio Compra</ion-label>\n            <ion-input type="text"></ion-input>\n          </ion-item>\n          <ion-item>\n            <ion-label stacked>Precio Venta</ion-label>\n            <ion-input type="text"></ion-input>\n          </ion-item>\n          <ion-item>\n            <ion-label stacked>Precio Mercado</ion-label>\n            <ion-input type="text"></ion-input>\n          </ion-item>\n        </ion-list>\n      </ion-col>\n    </ion-row>\n\n  </ion-grid>\n  <ion-fab bottom right >\n    <button ion-fab color="danger"><ion-icon name="more"></ion-icon></button>\n    <ion-fab-list side="top">\n      <button ion-fab color="primary" (click)="guardarArticulo()"><ion-icon name="create"></ion-icon></button>\n      <button ion-fab color="secondary" (click)="eliminarArticulo()"><ion-icon name="trash"></ion-icon></button>\n\n    </ion-fab-list>\n    <ion-fab-list side="left">\n      <button ion-fab color="naranja" (click)="listarProductos()"><ion-icon name="list"></ion-icon></button>\n      <button ion-fab color="secondary" (click)="reportesPedidos()" ><ion-icon name="print"></ion-icon></button>\n    </ion-fab-list>\n  </ion-fab>\n\n</ion-content>\n'/*ion-inline-end:"D:\IonicInventarios\sic\src\pages\nuevo-producto\nuevo-producto.html"*/,
-    }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */], __WEBPACK_IMPORTED_MODULE_4__providers_sic_service_sic_service__["a" /* SicServiceProvider */],
-        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ToastController */],
-        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */]])
-], NuevoProductoPage);
-
-//# sourceMappingURL=nuevo-producto.js.map
-
-/***/ }),
-
-/***/ 114:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1725,12 +1698,107 @@ var ReportesPage = (function () {
 }());
 ReportesPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-reportes',template:/*ion-inline-start:"D:\IonicInventarios\sic\src\pages\reportes\reportes.html"*/'<!--\n\n  Generated template for the ReportesPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar color="cafe-claro">\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>reportes</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"D:\IonicInventarios\sic\src\pages\reportes\reportes.html"*/,
+        selector: 'page-reportes',template:/*ion-inline-start:"E:\Inventarios\ionicSIC\ionic-sic\src\pages\reportes\reportes.html"*/'<!--\n\n  Generated template for the ReportesPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar color="cafe-claro">\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>reportes</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"E:\Inventarios\ionicSIC\ionic-sic\src\pages\reportes\reportes.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */]])
 ], ReportesPage);
 
 //# sourceMappingURL=reportes.js.map
+
+/***/ }),
+
+/***/ 114:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(167);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_sic_service_sic_service__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_device__ = __webpack_require__(168);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__request_request_login__ = __webpack_require__(267);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_token_share_token_share__ = __webpack_require__(84);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+/**
+ * Generated class for the LoginPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var LoginPage = (function () {
+    function LoginPage(navCtrl, navParams, menu, sicService, loadingCtrl, alertCtrl, device, tokenShare) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.menu = menu;
+        this.sicService = sicService;
+        this.loadingCtrl = loadingCtrl;
+        this.alertCtrl = alertCtrl;
+        this.device = device;
+        this.tokenShare = tokenShare;
+        this.txtUsuario = "";
+        this.txtPassword = "";
+        this.appName = "AppMovil";
+        this.appKey = "12e23o33e488x033o";
+        menu.enable(false);
+    }
+    LoginPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad LoginPage');
+    };
+    LoginPage.prototype.iniciaSesion = function () {
+        var _this = this;
+        //this.navCtrl.
+        var loading = this.loadingCtrl.create({
+            content: 'Iniciando Sessión'
+        });
+        loading.present();
+        var requestPedido = new __WEBPACK_IMPORTED_MODULE_5__request_request_login__["a" /* RequestLogin */](this.txtUsuario, this.txtPassword, this.appName, this.appKey, this.device.platform + " " + this.device.model);
+        var url = '/acceso/login';
+        this.sicService.postGlobal(requestPedido, url).subscribe(function (data) {
+            loading.dismiss();
+            var alert;
+            if (data.respuesta) {
+                _this.tokenShare.setData(data);
+                _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__home_home__["a" /* HomePage */], { data: data });
+            }
+            else {
+                alert = _this.alertCtrl.create({
+                    title: 'Error',
+                    subTitle: data.mensaje,
+                    buttons: ['Aceptar']
+                });
+                alert.present();
+                return;
+            }
+        });
+    };
+    return LoginPage;
+}());
+LoginPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-login',template:/*ion-inline-start:"E:\Inventarios\ionicSIC\ionic-sic\src\pages\login\login.html"*/'<!--\n  Generated template for the LoginPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n\n<ion-content class="fondo-contenido">\n  <div class="logo">\n    <img src="assets/img/sic-logo.png">\n  </div>\n  <div class="fondo-login" color="cafe-claro">\n    <ion-list>\n\n      <ion-item color="cafe-claro">\n        <ion-label floating color="light">Usuario</ion-label>\n        <ion-input color="light" [(ngModel)]="txtUsuario" type="text" required="true"></ion-input>\n      </ion-item>\n\n      <ion-item color="cafe-claro">\n        <ion-label floating color="light">Constraseña</ion-label>\n        <ion-input color="light" [(ngModel)]="txtPassword" type="password"></ion-input>\n      </ion-item>\n\n    </ion-list>\n    <div style="text-align: right">\n      <a ion-button color="naranja-logo" (click)="iniciaSesion()">Iniciar Sessión</a>\n    </div>\n  </div>\n</ion-content>\n'/*ion-inline-end:"E:\Inventarios\ionicSIC\ionic-sic\src\pages\login\login.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* MenuController */],
+        __WEBPACK_IMPORTED_MODULE_3__providers_sic_service_sic_service__["a" /* SicServiceProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_4__ionic_native_device__["a" /* Device */], __WEBPACK_IMPORTED_MODULE_6__providers_token_share_token_share__["a" /* TokenShareProvider */]])
+], LoginPage);
+
+//# sourceMappingURL=login.js.map
 
 /***/ }),
 
@@ -1756,15 +1824,15 @@ webpackEmptyAsyncContext.id = 124;
 
 var map = {
 	"../pages/cierre-gestion/cierre-gestion.module": [
-		287,
+		289,
 		8
 	],
 	"../pages/discos/discos.module": [
-		288,
+		287,
 		7
 	],
 	"../pages/entregas/entregas.module": [
-		289,
+		288,
 		6
 	],
 	"../pages/estado-cuentas/estado-cuentas.module": [
@@ -1772,7 +1840,7 @@ var map = {
 		5
 	],
 	"../pages/login/login.module": [
-		292,
+		295,
 		4
 	],
 	"../pages/modal-llegadas/modal-llegadas.module": [
@@ -1780,7 +1848,7 @@ var map = {
 		3
 	],
 	"../pages/nuevo-producto/nuevo-producto.module": [
-		294,
+		292,
 		2
 	],
 	"../pages/pedidos/pedidos.module": [
@@ -1788,7 +1856,7 @@ var map = {
 		1
 	],
 	"../pages/reportes/reportes.module": [
-		295,
+		294,
 		0
 	]
 };
@@ -1854,7 +1922,7 @@ var HomePage = (function () {
 }());
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"D:\IonicInventarios\sic\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar color="cafe-claro">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Ionic Menu Starter</h3>\n\n  <p>\n    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.\n  </p>\n\n  <button ion-button secondary menuToggle>Toggle Menu</button>\n\n</ion-content>\n'/*ion-inline-end:"D:\IonicInventarios\sic\src\pages\home\home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"E:\Inventarios\ionicSIC\ionic-sic\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar color="cafe-claro">\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Home</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n  <h3>Ionic Menu Starter</h3>\n\n\n\n  <p>\n\n    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.\n\n  </p>\n\n\n\n  <button ion-button secondary menuToggle>Toggle Menu</button>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"E:\Inventarios\ionicSIC\ionic-sic\src\pages\home\home.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* ViewController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* MenuController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */],
         __WEBPACK_IMPORTED_MODULE_2__providers_sic_service_sic_service__["a" /* SicServiceProvider */]])
@@ -1891,14 +1959,14 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(286);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_status_bar__ = __webpack_require__(209);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_splash_screen__ = __webpack_require__(210);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_login_login__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_cierre_gestion_cierre_gestion__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_discos_discos__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_entregas_entregas__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_login_login__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_cierre_gestion_cierre_gestion__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_discos_discos__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_entregas_entregas__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_estado_cuentas_estado_cuentas__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_nuevo_producto_nuevo_producto__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_nuevo_producto_nuevo_producto__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_pedidos_pedidos__ = __webpack_require__(112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_reportes_reportes__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_reportes_reportes__ = __webpack_require__(113);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__providers_sic_service_sic_service__ = __webpack_require__(34);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__angular_forms__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__angular_common_http__ = __webpack_require__(166);
@@ -1962,15 +2030,15 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
             __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["e" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
                 links: [
-                    { loadChildren: '../pages/cierre-gestion/cierre-gestion.module#CierreGestionPageModule', name: 'CierreGestionPage', segment: 'cierre-gestion', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/discos/discos.module#DiscosPageModule', name: 'DiscosPage', segment: 'discos', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/entregas/entregas.module#EntregasPageModule', name: 'EntregasPage', segment: 'entregas', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/cierre-gestion/cierre-gestion.module#CierreGestionPageModule', name: 'CierreGestionPage', segment: 'cierre-gestion', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/estado-cuentas/estado-cuentas.module#EstadoCuentasPageModule', name: 'EstadoCuentasPage', segment: 'estado-cuentas', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/modal-llegadas/modal-llegadas.module#ModalLlegadasPageModule', name: 'ModalLlegadasPage', segment: 'modal-llegadas', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/pedidos/pedidos.module#PedidosPageModule', name: 'PedidosPage', segment: 'pedidos', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/nuevo-producto/nuevo-producto.module#NuevoProductoPageModule', name: 'NuevoProductoPage', segment: 'nuevo-producto', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/reportes/reportes.module#ReportesPageModule', name: 'ReportesPage', segment: 'reportes', priority: 'low', defaultHistory: [] }
+                    { loadChildren: '../pages/pedidos/pedidos.module#PedidosPageModule', name: 'PedidosPage', segment: 'pedidos', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/reportes/reportes.module#ReportesPageModule', name: 'ReportesPage', segment: 'reportes', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] }
                 ]
             }),
             __WEBPACK_IMPORTED_MODULE_17__angular_forms__["a" /* FormsModule */],
@@ -2008,27 +2076,49 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 264:
+/***/ 256:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RequestLogin; });
-var RequestLogin = (function () {
-    function RequestLogin(usuario, contrasenia, appName, appKey, dispositivo) {
-        this.usuario = usuario;
-        this.contrasenia = contrasenia;
-        this.appName = appName;
-        this.appKey = appKey;
-        this.dispositivo = dispositivo;
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdlArticulo; });
+var MdlArticulo = (function () {
+    function MdlArticulo(objetoArticulo) {
+        this.objetoArticulo = objetoArticulo;
     }
-    return RequestLogin;
+    return MdlArticulo;
 }());
 
-//# sourceMappingURL=request-login.js.map
+//# sourceMappingURL=mdl-articulo.js.map
 
 /***/ }),
 
-/***/ 265:
+/***/ 257:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ObjArticulo; });
+var ObjArticulo = (function () {
+    function ObjArticulo(codigo, nombre, descripcion, precioKilo, peso, precioZonaLibre, porcentajeGasto, gasto, precioCompra, precioVenta, precioMercado) {
+        this.codigo = codigo;
+        this.nombre = nombre;
+        this.descripcion = descripcion;
+        this.precioKilo = precioKilo;
+        this.peso = peso;
+        this.precioZonaLibre = precioZonaLibre;
+        this.porcentajeGasto = porcentajeGasto;
+        this.gasto = gasto;
+        this.precioCompra = precioCompra;
+        this.precioVenta = precioVenta;
+        this.precioMercado = precioMercado;
+    }
+    return ObjArticulo;
+}());
+
+//# sourceMappingURL=obj-articulo.js.map
+
+/***/ }),
+
+/***/ 258:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2069,45 +2159,23 @@ var ArticuloPedido = (function () {
 
 /***/ }),
 
-/***/ 266:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MdlArticulo; });
-var MdlArticulo = (function () {
-    function MdlArticulo(objetoArticulo) {
-        this.objetoArticulo = objetoArticulo;
-    }
-    return MdlArticulo;
-}());
-
-//# sourceMappingURL=mdl-articulo.js.map
-
-/***/ }),
-
 /***/ 267:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ObjArticulo; });
-var ObjArticulo = (function () {
-    function ObjArticulo(codigo, nombre, descripcion, precioKilo, peso, precioZonaLibre, porcentajeGasto, gasto, precioCompra, precioVenta, precioMercado) {
-        this.codigo = codigo;
-        this.nombre = nombre;
-        this.descripcion = descripcion;
-        this.precioKilo = precioKilo;
-        this.peso = peso;
-        this.precioZonaLibre = precioZonaLibre;
-        this.porcentajeGasto = porcentajeGasto;
-        this.gasto = gasto;
-        this.precioCompra = precioCompra;
-        this.precioVenta = precioVenta;
-        this.precioMercado = precioMercado;
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RequestLogin; });
+var RequestLogin = (function () {
+    function RequestLogin(usuario, contrasenia, appName, appKey, dispositivo) {
+        this.usuario = usuario;
+        this.contrasenia = contrasenia;
+        this.appName = appName;
+        this.appKey = appKey;
+        this.dispositivo = dispositivo;
     }
-    return ObjArticulo;
+    return RequestLogin;
 }());
 
-//# sourceMappingURL=obj-articulo.js.map
+//# sourceMappingURL=request-login.js.map
 
 /***/ }),
 
@@ -2120,14 +2188,14 @@ var ObjArticulo = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(209);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(210);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_nuevo_producto_nuevo_producto__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_nuevo_producto_nuevo_producto__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_pedidos_pedidos__ = __webpack_require__(112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_entregas_entregas__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_entregas_entregas__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_estado_cuentas_estado_cuentas__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_reportes_reportes__ = __webpack_require__(114);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_discos_discos__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_cierre_gestion_cierre_gestion__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_login_login__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_reportes_reportes__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_discos_discos__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_cierre_gestion_cierre_gestion__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_login_login__ = __webpack_require__(114);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_token_share_token_share__ = __webpack_require__(84);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -2261,7 +2329,7 @@ __decorate([
     __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Nav */])
 ], MyApp.prototype, "nav", void 0);
 MyApp = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"D:\IonicInventarios\sic\src\app\app.html"*/'<ion-menu [content]="content">\n\n  <ion-header>\n\n    <img src="assets/img/images2.jpg" class="imagen-fondo"/>\n\n    <div class="menu-lateral">\n\n      <img class="circle" src="assets/img/login-user.svg"\n\n                       style="width: 55px; height: 55px; ">\n\n      <div class="texto-menu">\n\n        <a href="#"><span class="white-text name">{{nombreSession}}</span></a>\n\n      </div>\n\n      <div class="texto-menu">\n\n        <a href="#"><span class="white-text email">{{sucursalSession}}</span></a>\n\n      </div>\n\n    </div>\n\n  </ion-header>\n\n\n\n  <ion-content class="contenido">\n\n\n\n    <button  menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n\n      <ion-icon name="{{p.icon}}"></ion-icon>\n\n      <span></span> {{p.title}}\n\n    </button>\n\n\n\n  </ion-content>\n\n\n\n</ion-menu>\n\n\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>\n\n'/*ion-inline-end:"D:\IonicInventarios\sic\src\app\app.html"*/
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"E:\Inventarios\ionicSIC\ionic-sic\src\app\app.html"*/'<ion-menu [content]="content">\n  <ion-header>\n    <img src="assets/img/images2.jpg" class="imagen-fondo"/>\n    <div class="menu-lateral">\n      <img class="circle" src="assets/img/login-user.svg"\n                       style="width: 55px; height: 55px; ">\n      <div class="texto-menu">\n        <a href="#"><span class="white-text name">{{nombreSession}}</span></a>\n      </div>\n      <div class="texto-menu">\n        <a href="#"><span class="white-text email">{{sucursalSession}}</span></a>\n      </div>\n    </div>\n  </ion-header>\n\n  <ion-content class="contenido">\n\n    <button  menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n      <ion-icon name="{{p.icon}}"></ion-icon>\n      <span></span> {{p.title}}\n    </button>\n\n  </ion-content>\n\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>\n'/*ion-inline-end:"E:\Inventarios\ionicSIC\ionic-sic\src\app\app.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */],
         __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ToastController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */], __WEBPACK_IMPORTED_MODULE_12__providers_token_share_token_share__["a" /* TokenShareProvider */]])
@@ -2317,7 +2385,7 @@ var ListPage = ListPage_1 = (function () {
 }());
 ListPage = ListPage_1 = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-list',template:/*ion-inline-start:"D:\IonicInventarios\sic\src\pages\list\list.html"*/'<ion-header>\n\n  <ion-navbar color="cafe-claro">\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>List</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-list>\n\n    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">\n\n      <ion-icon [name]="item.icon" item-start></ion-icon>\n\n      {{item.title}}\n\n      <div class="item-note" item-end>\n\n        {{item.note}}\n\n      </div>\n\n    </button>\n\n  </ion-list>\n\n  <div *ngIf="selectedItem" padding>\n\n    You navigated here from <b>{{selectedItem.title}}</b>\n\n  </div>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\IonicInventarios\sic\src\pages\list\list.html"*/
+        selector: 'page-list',template:/*ion-inline-start:"E:\Inventarios\ionicSIC\ionic-sic\src\pages\list\list.html"*/'<ion-header>\n\n  <ion-navbar color="cafe-claro">\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>List</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-list>\n\n    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">\n\n      <ion-icon [name]="item.icon" item-start></ion-icon>\n\n      {{item.title}}\n\n      <div class="item-note" item-end>\n\n        {{item.note}}\n\n      </div>\n\n    </button>\n\n  </ion-list>\n\n  <div *ngIf="selectedItem" padding>\n\n    You navigated here from <b>{{selectedItem.title}}</b>\n\n  </div>\n\n</ion-content>\n\n'/*ion-inline-end:"E:\Inventarios\ionicSIC\ionic-sic\src\pages\list\list.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */]])
 ], ListPage);
